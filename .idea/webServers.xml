@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e8ae49c9-0ab0-4da3-9814-b1c522bfa96b" name="docker" url="http://localhost">
+        <fileTransfer mountedRoot="$PROJECT_DIR$/marketplace-webapp-view/target" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
