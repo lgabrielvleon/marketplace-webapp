@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="marketplace-webapp-entity" />
         <module name="marketplace-webapp-view" />
+        <module name="marketplace-webapp-entity" />
         <module name="marketplace-webapp-dao" />
       </profile>
     </annotationProcessing>

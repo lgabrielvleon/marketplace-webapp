@@ -31,7 +31,7 @@
                     <td><%=objProducto.getStock()%></td>
                     <td><%=objProducto.getPrecio()%></td>
                     <td>
-                        <a href="../sGestionarProductos?idProduct=<%=objProducto.getId()%>&type=U"><i class="material-icons">mode_edit</i></a>
+                        <a href="../sUpdateProduct?idProduct=<%=objProducto.getId()%>"><i class="material-icons">update</i></a>
                         <a href="../sGestionarProductos?idProduct=<%=objProducto.getId()%>&type=D"><i class="material-icons">delete</i></a>
                     </td>
                 </tr>
